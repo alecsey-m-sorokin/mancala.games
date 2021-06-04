@@ -10,7 +10,7 @@ import requests
 from parameterized import parameterized
 import json
 from Locators.Locators import bets, APIdata_MancalaQuest
-from Pages.MancalaQuest_Page import API_MancalaQuest
+from Pages.mm6.MancalaQuest_Page import API_MancalaQuest
 
 A = APIdata_MancalaQuest
 api = API_MancalaQuest

@@ -1,12 +1,8 @@
 import argparse
-import datetime
 import sys
 from datetime import timedelta
 import time
 import unittest
-from random import randint
-import pytest
-from parameterized import parameterized
 from Locators.Locators import APIdata_PortalMaster, DOM_PortalMaster, bets
 from Pages.mm5.PortalMaster_Page import API_PortalMaster, ScatterCrystalActionType, LevelSphere
 
